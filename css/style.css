@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://acegif.com/wp-content/gif/outerspace-41.gif);
+    background-size: cover; 
+    
+}
+
+
+
+.game {
+    width: 100%;
+    height: 100vh;
+   
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.enemy-game {
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+    animation: enemy-animation 2s infinite linear;
+}
+
+.main{
+    width:17%;
+    position: absolute;
+    bottom:0;
+    transform: rotate(90deg);
+}
+
+.jump-main {
+    animation: main-animation 820ms ease-out;
+}
+ 
+
+@keyframes enemy-animation {
+    from {
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+
+@keyframes main-animation{
+    0% {
+        bottom:0;
+    }
+    40% {
+        bottom: 200px;
+    }
+    50% {
+        bottom: 200px;
+    }
+    60%{
+        bottom: 200px;
+    }
+    70%{
+        bottom: 200px;
+    }
+    100%{
+        bottom: 0%
+    }
+
+}
