@@ -5,6 +5,8 @@ Este repositório foi desenvolvido para apresentação do desafio game no curso 
 
 Abaixo a foto do desenvolvimento finalizado e site de acesso;
 
+Obs.; Versão apenas Desktop
+
 https://erickplacidesmartins.github.io/game/
 
 
